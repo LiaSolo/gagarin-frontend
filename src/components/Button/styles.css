@@ -1,0 +1,20 @@
+.button {
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(13, 5, 255);
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+button:focus {
+  outline: 2px solid darkblue;
+  outline-offset: 3px;
+}
+
+button:hover {
+  transform: scale(1.2);
+}

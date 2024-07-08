@@ -1,0 +1,42 @@
+.row {
+    display: flex;
+    height: 30px;
+    text-align: center;
+    gap: 8px;
+    
+    p {
+        margin: 0;
+        font-size: 1em;
+        white-space: nowrap;
+    }
+}
+
+.lineGradientContainer {
+    display: flex;
+    max-width: 814.4px;
+    width: 95%;
+    height: 17px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.lineGradientContainer::after, .lineGradientContainer::before {
+    content: ''; 
+    background: linear-gradient(to left, transparent, darkblue);
+    height: 1px;
+    width: 50%;
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+.lineGradientContainer::before {
+  background: linear-gradient(to right, transparent, darkblue);
+  left: 0;
+}
+
+.probsBar {
+    background-color: rgb(13, 5, 255);
+    height: 3px;
+}

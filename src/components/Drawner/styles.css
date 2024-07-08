@@ -1,0 +1,29 @@
+.dialog {
+    width: max-content;
+    box-sizing: border-box;
+    padding: 16px;
+    display: grid;
+    place-items: center;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.dialogOverlay {
+    background: rgba(0, 0, 0, 0.8);
+    display: grid;
+    place-items: center;
+
+    z-index: 10000;
+}
+
+.rectangle {
+    position: absolute;
+    box-sizing: border-box;
+    border: 2px solid darkblue;
+    border-radius: 4px;
+    z-index: 10;
+    cursor: pointer;
+}

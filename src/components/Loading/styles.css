@@ -1,0 +1,8 @@
+
+
+.loading {
+    height: 80px;
+    width: 80px;
+    background-image: url('../../assets/spinning-dots.svg');
+    background-size: cover;
+}

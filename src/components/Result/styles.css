@@ -1,0 +1,19 @@
+.resultContainer {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.size {
+    width: 100%;
+    position: relative;
+}
+
+.stickyContent {
+    position: sticky;
+    top: 64px;
+    z-index: 1;
+}
